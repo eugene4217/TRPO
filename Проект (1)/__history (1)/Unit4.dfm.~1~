@@ -1,0 +1,120 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  Caption = #1040#1083#1075#1086#1088#1080#1090#1084' '#1045#1074#1082#1083#1080#1076#1072
+  ClientHeight = 390
+  ClientWidth = 606
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Memo1: TMemo
+    Left = 0
+    Top = 0
+    Width = 782
+    Height = 33
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    Lines.Strings = (
+      '       '#1044#1083#1103' '#1085#1072#1095#1072#1083#1072' '#1087#1086#1078#1077#1084' '#1087#1088#1080#1084#1077#1088' '#1087#1088#1086#1089#1090#1086#1081' '#1088#1077#1082#1091#1088#1089#1080#1080'.'#1040#1083#1075#1086#1088#1080#1090#1084' '#1045#1074#1082#1083#1080#1076#1072
+      ' ')
+    ParentFont = False
+    TabOrder = 0
+  end
+  object GroupBox1: TGroupBox
+    Left = 8
+    Top = 39
+    Width = 290
+    Height = 346
+    Caption = #1053#1072#1080#1084#1077#1085#1100#1096#1077#1077' '#1086#1073#1097#1077#1077' '#1082#1088#1072#1090#1085#1086#1077
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    object Edit1: TEdit
+      Left = 0
+      Top = 24
+      Width = 137
+      Height = 29
+      TabOrder = 0
+    end
+    object Edit2: TEdit
+      Left = 143
+      Top = 24
+      Width = 144
+      Height = 29
+      TabOrder = 1
+    end
+    object Edit3: TEdit
+      Left = 74
+      Top = 59
+      Width = 144
+      Height = 29
+      TabOrder = 2
+    end
+    object Button1: TButton
+      Left = 74
+      Top = 176
+      Width = 144
+      Height = 49
+      Caption = #1042#1099#1095#1080#1089#1083#1080#1090#1100
+      TabOrder = 3
+      OnClick = Button1Click
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 304
+    Top = 39
+    Width = 297
+    Height = 346
+    Caption = #1053#1072#1080#1084#1077#1085#1100#1096#1080#1081' '#1086#1073#1097#1080#1081' '#1076#1077#1083#1080#1090#1077#1083#1100
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    object Button2: TButton
+      Left = 82
+      Top = 184
+      Width = 144
+      Height = 49
+      Caption = #1042#1099#1095#1080#1089#1083#1080#1090#1100
+      TabOrder = 0
+      OnClick = Button2Click
+    end
+    object Edit4: TEdit
+      Left = 82
+      Top = 67
+      Width = 144
+      Height = 29
+      TabOrder = 1
+    end
+    object Edit5: TEdit
+      Left = 3
+      Top = 24
+      Width = 144
+      Height = 29
+      TabOrder = 2
+    end
+    object Edit6: TEdit
+      Left = 153
+      Top = 24
+      Width = 144
+      Height = 29
+      TabOrder = 3
+    end
+  end
+end

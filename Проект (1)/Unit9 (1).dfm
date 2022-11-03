@@ -1,0 +1,60 @@
+object Form9: TForm9
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsNone
+  Caption = 'Form9'
+  ClientHeight = 406
+  ClientWidth = 795
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Gauge1: TGauge
+    Left = 0
+    Top = 373
+    Width = 795
+    Height = 33
+    BorderStyle = bsNone
+    ForeColor = clMaroon
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    Progress = 0
+  end
+  object MediaPlayer1: TMediaPlayer
+    Left = 72
+    Top = 208
+    Width = 253
+    Height = 25
+    DoubleBuffered = True
+    Display = Panel1
+    Visible = False
+    ParentDoubleBuffered = False
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 795
+    Height = 377
+    Caption = 'Panel1'
+    TabOrder = 1
+  end
+  object Timer1: TTimer
+    Interval = 20
+    OnTimer = Timer1Timer
+    Left = 488
+    Top = 224
+  end
+end

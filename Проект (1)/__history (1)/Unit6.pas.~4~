@@ -1,0 +1,57 @@
+unit Unit6;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Imaging.pngimage, Vcl.Imaging.jpeg,
+  Vcl.ExtCtrls, Vcl.StdCtrls;
+
+type
+  TForm6 = class(TForm)
+    Memo1: TMemo;
+    GroupBox1: TGroupBox;
+    GroupBox2: TGroupBox;
+    GroupBox3: TGroupBox;
+    Image1: TImage;
+    Image2: TImage;
+    Image3: TImage;
+    Memo2: TMemo;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Button1: TButton;
+    Button2: TButton;
+    Memo3: TMemo;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Memo4: TMemo;
+    Edit5: TEdit;
+    Button3: TButton;
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form6: TForm6;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm6.Button2Click(Sender: TObject);
+var c:integer;
+function factorial(k:integer):integer; {Нахождение факториала числа}
+begin
+  if k=1 then factorial:=1
+   else factorial:=k*factorial(k-1); {Peкурсия}
+end;
+Begin
+ c:=StrToInt(Edit3.Text);
+ Memo3.Lines.Add('Число перестановок:' + factorial(c)); {Вывод результата}
+
+end;
+
+end.
